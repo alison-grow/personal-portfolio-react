@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+body {
+  background-color: #8f6666;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+::selection{
+	background-color: #ffa1dd;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* BEGINNING OF HEADER */
+
+.header {
+  height: 90px;
+  background-color: #444444;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo-img {
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.dropdown {
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.dropdown-btn {
+  height: 60px;
+  width: 120px;
+  background-color: darkgoldenrod;
+  border-radius: 30px;
+}
+
+.jumbotron {
+  height: 250px;
+  background-image: linear-gradient(45.34deg, #874a4a 5.66%, #5b5b5b 94.35%);
+  margin-top: -20px;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron-h1 {
+  padding-top: 60px;
+  font-size: 70px;
+  margin-top: 20px;
+  font-family: 'Shrikhand', cursive;
+  font-weight: 300;
+}
+
+.jumbotron-h2 {
+  font-size: 18px;
+  margin-top: -35px;
+  font-family: 'Arbutus Slab', serif;
+  font-weight: 300;
 }
