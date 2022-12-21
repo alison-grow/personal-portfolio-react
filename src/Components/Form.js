@@ -1,4 +1,5 @@
 import React from "react";
+import { Switch } from "@mui/material";
 
 export default function Form() {
     return (
@@ -31,6 +32,7 @@ export default function Form() {
                 <input type="text" className="contact-input" required />
             </div>
             <div className="">
+                <Switch
                 <button className="submit-btn" />
             </div>
         </div>
