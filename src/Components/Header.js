@@ -6,7 +6,7 @@ export default function Header() {
         <header>
             <div className="header">
                 <div className="header-logo">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1753/1753751.png" alt="sparkle computer" className="logo-img" />
+                    <img src="./img/clean-code.png" alt="sparkle computer" className="logo-img" />
                 </div>
             <Dropdown />
             </div>
