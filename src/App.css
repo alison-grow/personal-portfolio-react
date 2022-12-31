@@ -130,6 +130,92 @@ li {
   margin-top: 30px;
 }
 /* END OF BODY */
+/* BEGINNING OF CONTACT FORM */
+
+.contact-form-container {
+  height: 720px;
+  width: 50%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  background-color: #D88080;
+}
+
+.contact-h3 {
+  font-size: 45px;
+  color: #ffffff;
+  font-family: 'Shrikhand', cursive;
+  font-weight: 300;
+  padding-top: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.form-label {
+  font-family: 'Arbutus Slab', serif;
+  color: #ffffff;
+  font-size: 20px;
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 6px;
+  margin-left: 30px;
+}
+
+.form-input {
+  width: 600px;
+  height: 28px;
+  border-radius: 10px;
+  border: 5px solid #ffffff;
+  background-color: #ffffff;
+  font-family: 'Arbutus Slab', serif;
+  display: flex;
+  margin: auto;
+}
+
+.form-textarea {
+  height: 200px;
+  width: 600px;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Arbutus Slab', serif;
+  display: flex;
+  margin: auto;
+}
+
+.switch {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.switch-label {
+  font-family: 'Arbutus Slab', serif;
+  color: #ffffff;
+}
+
+.submit-btn {
+  height: 50px;
+  width: 610px;
+  background-color: #bb5f5f;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+  font-family: 'Shrikhand', cursive;
+}
+
+/* END OF CONTACT */
+/* BEGINNING OF PROJECTS */
+
+.column-container {
+  /* display: flex; */
+  height: 500px;
+  width: 100%;
+}
+/* END OF PROJECTS */
 /* BEGINNING OF FOOTER */
 
 .footer {
