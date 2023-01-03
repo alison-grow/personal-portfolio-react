@@ -1,5 +1,8 @@
 import React from "react";
-import { Col, Row, Container } from "react-bootstrap";
+import MyAccordion from "./Accordion";
+import { Grid } from "@mui/material";
+
+// import { Col, Row, Container } from "react-bootstrap";
 
 export default function Projects() {
     return (
@@ -12,13 +15,23 @@ export default function Projects() {
                     Some things I've made
                 </h2>
             </div>
-            <Container fluid className="column-container">
-                <Row>
-                    <Col className="d-flex">One of three columns</Col>
-                    <Col xs={6} className="d-flex">One of three columns</Col>
-                    <Col className="d-flex">One of three columns</Col>
-                </Row>
-            </Container>
+            <div className="grid-container">
+            <Grid container spacing={.5}>
+                <Grid xs={2}>
+                    <img src="https://alison-grow.github.io/img/computer%20(1).png" alt="computer" className="column-img" />
+                    <img src="https://alison-grow.github.io/img/cloud-network.png" alt="cloud network" className="column-img" />
+                    <img src="https://alison-grow.github.io/img/girl.png" alt="coder girl" className="column-img" />
+                </Grid>
+                <Grid xs={8} className="accordion-grid">
+                    <MyAccordion />
+                </Grid>
+                <Grid xs={2}>
+                    <img src="https://alison-grow.github.io/img/computer%20(1).png" alt="computer" className="column-img" />
+                    <img src="https://alison-grow.github.io/img/cloud-network.png" alt="cloud network" className="column-img" />
+                    <img src="https://alison-grow.github.io/img/girl.png" alt="coder girl" className="column-img" />
+                </Grid>
+            </Grid>
+            </div>
         </div>
     )
 }
