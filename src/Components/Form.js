@@ -9,12 +9,18 @@ export default function MyForm() {
             color: pink[100],
             '&:hover': {
             backgroundColor: alpha(pink[600], theme.palette.action.hoverOpacity),
+            // cursor: url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), 
+            //         url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), auto !important,
             },
         },
         '& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track': {
             backgroundColor: pink[100],
         },
     }));
+    // const cursorUrl = "https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif + https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif";
+    // const switchStyle = {
+    //     cursor: `url(${cursorUrl})`,
+    // };
     return (
         <div className="contact-form-container">
                 <form>
@@ -33,7 +39,7 @@ export default function MyForm() {
                         Message: 
                     </label>
                     <textarea placeholder="type your message here" className="form-textarea" /><br></br>
-                    <GreenSwitch className="switch" />
+                    <GreenSwitch className="switch" sx={{}} />
                         <label className="switch-label">
                             I am not a robot.
                         </label>

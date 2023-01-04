@@ -2,8 +2,6 @@ import React from "react";
 import MyAccordion from "./Accordion";
 import { Grid } from "@mui/material";
 
-// import { Col, Row, Container } from "react-bootstrap";
-
 export default function Projects() {
     return (
         <div className="projects-page-content">

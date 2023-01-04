@@ -39,6 +39,11 @@ body {
   cursor: url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), auto !important;
 }
 
+#basic-button:hover {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+
+}
+
 .item-container {
   border: 2px solid #301934;
   border-radius: 15px;
@@ -59,6 +64,10 @@ body {
   cursor: url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), auto !important;
 }
 
+.menu-item:hover {
+  color: #ffffff; 
+
+}
 /* END OF HEADER */ 
 /* BEGINNING OF BODY */
 .jumbotron {
@@ -87,8 +96,8 @@ body {
 .home-boxes {
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  width: 90%;
+  margin: 30px auto 30px auto;
 }
 
 .home-one {
@@ -151,7 +160,6 @@ li::before {
   height: 680px;
   width: 75%;
   margin: auto;
-  margin-bottom: 30px;
   border-radius: 20px;
   margin-top: -10px;
   background-color: #D88080;
@@ -202,11 +210,13 @@ li::before {
 .switch {
   margin-left: 20px;
   margin-bottom: 10px;
+  cursor: url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), auto !important;
 }
 
 .switch-label {
   font-family: 'Arbutus Slab', serif;
   color: #ffffff;
+  cursor: url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), auto !important;
 }
 
 .submit-btn {
@@ -222,6 +232,13 @@ li::before {
   border-radius: 10px;
   font-family: 'Shrikhand', cursive;
   cursor: url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), auto !important;
+}
+
+.label-container {
+  cursor: url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), auto !important;
+}
+.submit-btn:hover {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 }
 
 /* END OF CONTACT */
@@ -264,6 +281,10 @@ li::before {
   margin-bottom: 15px;
 }
 
+.accordion-img:hover {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75); 
+}
+
 .accordion-title {
   font-family: 'Shrikhand', cursive;
 }
@@ -278,6 +299,20 @@ a:hover {
   height: 90px;
   width: 100%;
   background-color: #444444;
-  /* position: absolute; */
-  /* bottom: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  height: 35px;
+  margin: 15px;
+}
+
+a.social {
+  color: #FCC7B5;
+}
+
+a.social:hover {
+  color: #ffffff;
 }

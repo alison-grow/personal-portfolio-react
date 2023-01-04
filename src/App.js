@@ -19,7 +19,7 @@ function App() {
             </>
           } 
           />
-          <Route path='/Projects' element={
+          <Route path='Projects' element={
             <>
               <Header />
               <Projects />
@@ -27,7 +27,7 @@ function App() {
             </>
           } 
           />
-          <Route path='/Contact' element={
+          <Route path='Contact' element={
             <>
               <Header />
               <Contact />

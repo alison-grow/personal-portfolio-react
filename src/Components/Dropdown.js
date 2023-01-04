@@ -1,8 +1,6 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { Button, Menu, MenuItem, Typography } from "@mui/material";
-
-// import Dropdown from 'react-bootstrap/Dropdown';
-// import DropdownButton from 'react-bootstrap/DropdownButton';
 
 export default function DropButton() {
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -14,15 +12,6 @@ export default function DropButton() {
         setAnchorEl(null);
     };
     return (
-        // <DropdownButton id="dropdown-basic-button" title="&#9733; Menu &#9733;" className="drop-btn" autoClose={true}>
-        //     <div className="item-container">
-        //         <Dropdown.Item id="dropdown-item" href="/Home.js">Home</Dropdown.Item>
-        //         <Dropdown.Item id="dropdown-item" href="/Projects.js">Projects</Dropdown.Item>
-        //         <Dropdown.Item id="dropdown-item" href="/Contact.js">Contact</Dropdown.Item>
-        //     </div>
-        // </DropdownButton>
-
-
         <div className="dropdown-container">
             <Button
                 id="basic-button"
@@ -37,6 +26,7 @@ export default function DropButton() {
                 </Typography>
             </Button>
             <Menu
+                style={{color: '#bb5f5f'}}
                 id="basic-menu"
                 anchorEl={anchorEl}
                 open={open}
@@ -45,9 +35,30 @@ export default function DropButton() {
                 'aria-labelledby': 'basic-button',
                 }}
             >
-                <MenuItem onClick={handleClose} style={{ backgroundColor: '#FCC7B5', fontFamily: 'Arbutus Slab, serif'}} className="menu-item">Profile</MenuItem>
-                <MenuItem onClick={handleClose} style={{ backgroundColor: '#FCC7B5',fontFamily: 'Arbutus Slab, serif' }} className="menu-item">My account</MenuItem>
-                <MenuItem onClick={handleClose} style={{ backgroundColor: '#FCC7B5', fontFamily: 'Arbutus Slab, serif'}} className="menu-item">Logout</MenuItem>
+                <MenuItem 
+                    onClick={handleClose}
+                    style={{ backgroundColor: '#FCC7B5', fontFamily: 'Arbutus Slab, serif'}} className="menu-item"
+                    >
+                        <NavLink to="/" className="menu-link">
+                            Home
+                        </NavLink>
+                </MenuItem>
+                <MenuItem 
+                    onClick={handleClose} 
+                    style={{ backgroundColor: '#FCC7B5',fontFamily: 'Arbutus Slab, serif'}} className="menu-item"
+                    >
+                        <NavLink to="Projects" className="menu-link">
+                            Projects
+                        </NavLink>
+                </MenuItem>
+                <MenuItem 
+                    onClick={handleClose} 
+                    style={{ backgroundColor: '#FCC7B5', fontFamily: 'Arbutus Slab, serif'}} className="menu-item"
+                    >
+                        <NavLink to="Contact" className="menu-link">
+                            Contact
+                        </NavLink>
+                </MenuItem>
             </Menu>
         </div>
     );
