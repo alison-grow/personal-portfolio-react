@@ -10,7 +10,7 @@ import {
 export default function SocialButtons() {
     return (
         <div className="social-container">
-            <a href="https://www.linkedin.com/" className="linkedin social" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/alison-grow-20365a260/" className="linkedin social" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
             </a>
             <a href="https://github.com/alison-grow" className="github social" target="_blank" rel="noreferrer">

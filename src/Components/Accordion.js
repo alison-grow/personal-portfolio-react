@@ -49,7 +49,7 @@ export default function MyAccordion() {
                         <a href={url2} target="_blank" rel="noreferrer">
                             <img src="http://content.pimp-my-profile.com/ms/i73/8/5/23/f_f5464f7fd5.jpg" alt="emo background"className="accordion-img"  />
                         </a>
-                        I created this magic 8 ball project to test my javascript skills. I created a function that fetches a random 8 ball image to display as an answer to the user's question.
+                        I created this magic 8 ball project to test my Javascript skills. The user can type a question into the text field, and a function I created fetches a random 8 ball image to display as the answer.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -66,8 +66,25 @@ export default function MyAccordion() {
                         <a href={url3} target="_blank" rel="noreferrer">
                             <img src="https://dl.glitter-graphics.com/pub/1639/1639186ckukxjuuwf.gif" alt="fashion background"className="accordion-img"  />
                         </a>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        This is a fashion ecommerce website I created to practice React coding. I added separate pages for clothes and jewelry. I included a wishlist so customers can keep track of their favorite items, and a shopping cart and checkout page to purchase the chosen items.
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion expanded={expandedPanel === 'panel4'} onChange={handleAccordionChange('panel4')} className="accordion-header" style={{ backgroundColor: '#bb5f5f', borderBottomRadius: '25px',}}>
+                <AccordionSummary
+                expandIcon={<ExpandMoreIcon style={{color: '#FFFFFF',}} />}
+                aria-controls="panel4a-content"
+                id="panel4a-header"
+                >
+                    <Typography className="accordion-title" style={{color: '#ffffff', fontFamily: 'Shrikhand, cursive', fontSize: '30px'}}>Calculator App</Typography>
+                </AccordionSummary>
+                <AccordionDetails style={{backgroundColor: '#FCC7B5',}}>
+                    <Typography style={{color: '#301934', fontFamily: 'Arbutus Slab, serif', textAlign: 'center'}}>
+                        <a href={url3} target="_blank" rel="noreferrer">
+                            <img src="https://dl.glitter-graphics.com/pub/1639/1639186ckukxjuuwf.gif" alt="fashion background"className="accordion-img"  />
+                        </a>
+                        This is a fashion ecommerce website I created to practice React coding. I added separate pages for clothes and jewelry. I included a wishlist so customers can keep track of their favorite items, and a shopping cart and checkout page to purchase the chosen items.
                     </Typography>
                 </AccordionDetails>
             </Accordion>

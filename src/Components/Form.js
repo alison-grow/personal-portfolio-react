@@ -1,4 +1,5 @@
 import React from "react";
+// import { ReactDOM } from "react";
 import { Switch } from "@mui/material";
 import { alpha, styled } from '@mui/material/styles';
 import { pink } from '@mui/material/colors';
@@ -9,18 +10,16 @@ export default function MyForm() {
             color: pink[100],
             '&:hover': {
             backgroundColor: alpha(pink[600], theme.palette.action.hoverOpacity),
-            // cursor: url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), 
-            //         url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), auto !important,
             },
         },
         '& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track': {
             backgroundColor: pink[100],
         },
     }));
-    // const cursorUrl = "https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif + https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif";
-    // const switchStyle = {
-    //     cursor: `url(${cursorUrl})`,
-    // };
+    // const handleSubmit = (event) > {
+    //     alert('Your email has been sent! Thank you ~');
+    //     event.preventDefault();
+    // }
     return (
         <div className="contact-form-container">
                 <form>
