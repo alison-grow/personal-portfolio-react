@@ -10,6 +10,7 @@ export default function MyAccordion() {
     let url1 = "https://alison-grow.github.io/W4BFinalProject/";
     let url2 = "https://alison-grow.github.io/magic8ball/";
     let url3 = "https://alison-grow.github.io/reactfinal2/";
+    let url4 = "https://alison-grow.github.io/calculator-react/";
     const [expandedPanel, setExpandedPanel] = useState(false);
 
     const handleAccordionChange = (panel) => (event, isExpanded) => {
@@ -81,10 +82,10 @@ export default function MyAccordion() {
                 </AccordionSummary>
                 <AccordionDetails style={{backgroundColor: '#FCC7B5',}}>
                     <Typography style={{color: '#301934', fontFamily: 'Arbutus Slab, serif', textAlign: 'center'}}>
-                        <a href={url3} target="_blank" rel="noreferrer">
-                            <img src="https://dl.glitter-graphics.com/pub/1639/1639186ckukxjuuwf.gif" alt="fashion background"className="accordion-img"  />
+                        <a href={url4} target="_blank" rel="noreferrer">
+                            <img src="https://64.media.tumblr.com/61c06799bcdb0ff55d877a16c0c34066/tumblr_oir99mqk8q1tf8vylo1_1280.png" alt="gradient" className="accordion-img"  />
                         </a>
-                        This is a fashion ecommerce website I created to practice React coding. I added separate pages for clothes and jewelry. I included a wishlist so customers can keep track of their favorite items, and a shopping cart and checkout page to purchase the chosen items.
+                        This is a calculator app I made with React. ADD DESCRIPTION HERE
                     </Typography>
                 </AccordionDetails>
             </Accordion>
