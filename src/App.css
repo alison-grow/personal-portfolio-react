@@ -274,8 +274,8 @@ li::before {
 }
 
 .accordion-img {
-  height: 250px;
-  width: 250px;
+  height: 180px;
+  width: 180px;
   display: block;
   margin: auto;
   margin-bottom: 15px;

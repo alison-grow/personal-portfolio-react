@@ -11,6 +11,7 @@ export default function MyAccordion() {
     let url2 = "https://alison-grow.github.io/magic8ball/";
     let url3 = "https://alison-grow.github.io/reactfinal2/";
     let url4 = "https://alison-grow.github.io/calculator-react/";
+    let url5 = "https://alison-grow.github.io/dailyaffirmations/";
     const [expandedPanel, setExpandedPanel] = useState(false);
 
     const handleAccordionChange = (panel) => (event, isExpanded) => {
@@ -83,9 +84,27 @@ export default function MyAccordion() {
                 <AccordionDetails style={{backgroundColor: '#FCC7B5',}}>
                     <Typography style={{color: '#301934', fontFamily: 'Arbutus Slab, serif', textAlign: 'center'}}>
                         <a href={url4} target="_blank" rel="noreferrer">
-                            <img src="https://64.media.tumblr.com/61c06799bcdb0ff55d877a16c0c34066/tumblr_oir99mqk8q1tf8vylo1_1280.png" alt="gradient" className="accordion-img"  />
+                            <img src="https://64.media.tumblr.com/a9139e8955987b077e4026345152895b/tumblr_oinv1kVQSE1tf8vylo1_1280.png" alt="gradient" className="accordion-img"  />
                         </a>
-                        This is a calculator app I made with React. ADD DESCRIPTION HERE
+                        This is a simple calculator app with buttons and a "screen" that I made with React. I created actions that display numbers and operands, and a function that calculates the numbers to get a total.
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion expanded={expandedPanel === 'panel5'} onChange={handleAccordionChange('panel5')} className="accordion-header" style={{ backgroundColor: '#bb5f5f', borderBottomRadius: '25px',}}>
+                <AccordionSummary
+                expandIcon={<ExpandMoreIcon style={{color: '#FFFFFF',}} />}
+                aria-controls="panel4a-content"
+                id="panel4a-header"
+                >
+                    <Typography className="accordion-title" style={{color: '#ffffff', fontFamily: 'Shrikhand, cursive', fontSize: '30px'}}>Affirmations Generator</Typography>
+                </AccordionSummary>
+                <AccordionDetails style={{backgroundColor: '#FCC7B5',}}>
+                    <Typography style={{color: '#301934', fontFamily: 'Arbutus Slab, serif', textAlign: 'center'}}>
+                        <a href={url5} target="_blank" rel="noreferrer">
+                            <img src="https://dl.glitter-graphics.com/pub/2848/2848118fp7sd9ugs2.jpg" alt="flowers" className="accordion-img"  />
+                        </a>
+                        This is a daily affirmation generator I built with Javascript. A function generates and displays a random affirmation from an array. I made it so I can add a little positivity to my life every day before getting to work.
                     </Typography>
                 </AccordionDetails>
             </Accordion>

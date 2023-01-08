@@ -19,6 +19,7 @@ export default function Projects() {
                     <img src="https://alison-grow.github.io/img/computer%20(1).png" alt="computer" className="column-img" />
                     <img src="https://alison-grow.github.io/img/cloud-network.png" alt="cloud network" className="column-img" />
                     <img src="https://alison-grow.github.io/img/girl.png" alt="coder girl" className="column-img" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/2721/2721593.png" alt="coding languages" className="column-img" />
                 </Grid>
                 <Grid xs={8} className="accordion-grid">
                     <MyAccordion />
@@ -27,6 +28,7 @@ export default function Projects() {
                     <img src="https://alison-grow.github.io/img/computer%20(1).png" alt="computer" className="column-img" />
                     <img src="https://alison-grow.github.io/img/cloud-network.png" alt="cloud network" className="column-img" />
                     <img src="https://alison-grow.github.io/img/girl.png" alt="coder girl" className="column-img" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/2721/2721593.png" alt="coding languages" className="column-img" />
                 </Grid>
             </Grid>
             </div>

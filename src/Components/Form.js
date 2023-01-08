@@ -16,10 +16,6 @@ export default function MyForm() {
             backgroundColor: pink[100],
         },
     }));
-    // const handleSubmit = (event) > {
-    //     alert('Your email has been sent! Thank you ~');
-    //     event.preventDefault();
-    // }
     return (
         <div className="contact-form-container">
                 <form>
