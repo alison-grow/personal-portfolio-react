@@ -242,57 +242,11 @@ li::before {
 }
 
 /* END OF CONTACT */
-/* BEGINNING OF PROJECTS */
 
-.grid-container {
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-.column-img {
-  height: 100px;
-  width: 100px;
-  display: block;
-  padding: 30px;
-  margin: auto;
-}
-/* END OF PROJECTS */
-/* BEGINNING OF ACCORDION */
-
-.accordion-container {
-  width: 90%;
-  background-color: #8f6666;
-  margin: auto;
-}
-
-.accordion-header {
-  border: 1px solid #ffffff;
-}
-
-.accordion-grid {
-  display: flex;
-  align-items: center;
-}
-
-.accordion-img {
-  height: 180px;
-  width: 180px;
-  display: block;
-  margin: auto;
-  margin-bottom: 15px;
-}
-
-.accordion-img:hover {
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75); 
-}
-
-.accordion-title {
-  font-family: 'Shrikhand', cursive;
-}
-
+/* BEGINNING OF CARD */
 a:hover {
   cursor: url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), auto !important;
 }
-/* END OF ACCORDION */
 
 .card-container {
   display: flex;
@@ -312,7 +266,7 @@ a:hover {
 }
 
 
-
+/* END OF CARD */
 /* BEGINNING OF FOOTER */
 
 .footer {
