@@ -12,6 +12,8 @@ export default function MyAccordion() {
     let url3 = "https://alison-grow.github.io/reactfinal2/";
     let url4 = "https://alison-grow.github.io/calculator-react/";
     let url5 = "https://alison-grow.github.io/dailyaffirmations/";
+    let url6 = "https://alison-grow.github.io/kombucha-rating-website/";
+    let url7 = ""
     const [expandedPanel, setExpandedPanel] = useState(false);
 
     const handleAccordionChange = (panel) => (event, isExpanded) => {
@@ -105,6 +107,42 @@ export default function MyAccordion() {
                             <img src="https://dl.glitter-graphics.com/pub/2848/2848118fp7sd9ugs2.jpg" alt="flowers" className="accordion-img"  />
                         </a>
                         This is a daily affirmation generator I built with Javascript. A function generates and displays a random affirmation from an array. I made it so I can add a little positivity to my life every day before getting to work.
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion expanded={expandedPanel === 'panel6'} onChange={handleAccordionChange('panel6')} className="accordion-header" style={{ backgroundColor: '#bb5f5f',  cursor: 'url(https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif), url(https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif), auto !important'}}>
+                <AccordionSummary
+                expandIcon={<ExpandMoreIcon style={{color: '#FFFFFF',}} />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+                >
+                    <Typography style={{color: '#ffffff', fontFamily: 'Shrikhand, cursive', fontSize: '30px'}}>State Capitals Quiz</Typography>
+                </AccordionSummary>
+                <AccordionDetails style={{backgroundColor: '#FCC7B5',}}>
+                    <Typography style={{color: '#301934', fontFamily: 'Arbutus Slab, serif', textAlign: 'center'}}>
+                        <a href={url1} target="_blank" rel="noreferrer">
+                            <img src="https://alison-grow.github.io/img/day-yosemite.jpg" alt="yosemite"className="accordion-img"  />
+                        </a>
+                        This React project is a quiz on the US state capitals. I made a function that asks questions and keeps track of the right and wrong answers. At the end the user gets their score.
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion expanded={expandedPanel === 'panel7'} onChange={handleAccordionChange('panel7')} className="accordion-header" style={{ backgroundColor: '#bb5f5f',  cursor: 'url(https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif), url(https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif), auto !important'}}>
+                <AccordionSummary
+                expandIcon={<ExpandMoreIcon style={{color: '#FFFFFF',}} />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+                >
+                    <Typography style={{color: '#ffffff', fontFamily: 'Shrikhand, cursive', fontSize: '30px'}}>Kombucha Ratings Website</Typography>
+                </AccordionSummary>
+                <AccordionDetails style={{backgroundColor: '#FCC7B5',}}>
+                    <Typography style={{color: '#301934', fontFamily: 'Arbutus Slab, serif', textAlign: 'center'}}>
+                        <a href={url1} target="_blank" rel="noreferrer">
+                            <img src="https://alison-grow.github.io/img/day-yosemite.jpg" alt="yosemite"className="accordion-img"  />
+                        </a>
+                        I built this project as a way to keep track of the kombucha teas I've tried. I created an array for each brand and wrote ratings and reviews of each drink, then arranged them in a table.
                     </Typography>
                 </AccordionDetails>
             </Accordion>

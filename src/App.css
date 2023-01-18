@@ -129,7 +129,7 @@ body {
 .h4-boxes {
   text-align: center;
   font-size: 16px;
-  color: #301934;
+  color: #444444;
   font-weight: 400;
   font-family: 'Arbutus Slab', serif;
 }
@@ -137,7 +137,7 @@ body {
 ul {
   text-align: center;
   font-family: 'Arbutus Slab', serif;
-  color: #301934;
+  color: #444444;
   line-height: 2.2;
   list-style-type: none;
 }
@@ -150,7 +150,7 @@ li {
 
 li::before {
   content: "\2605";
-  color: #301934;
+  color: #444444;
   padding-right: 10px;
 }
 /* END OF BODY */
@@ -293,6 +293,26 @@ a:hover {
   cursor: url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), url('https://static.tumblr.com/xjqjg7j/Mhcmxtzxp/84.gif'), auto !important;
 }
 /* END OF ACCORDION */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: space-around;
+}
+
+.a-links {
+  text-decoration: none;
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+}
+
+
+
 /* BEGINNING OF FOOTER */
 
 .footer {

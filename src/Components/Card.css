@@ -1,0 +1,60 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    margin: 0px auto 30px auto;
+}
+
+.cards:hover {
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5)
+}
+
+.cards:nth-child(even) {
+    background-color: #bb5f5f;
+}
+
+.cards:nth-child(odd) {
+    background-color: #FCC7B5;
+}
+
+.cards:nth-child(even) .typography-card {
+    color: white;
+    font-family: 'Arbutus Slab', serif;
+    font-size: 15px;
+}
+
+.cards:nth-child(odd) .typography-card {
+    color: #444444;
+    font-family: 'Arbutus Slab', serif;
+    font-size: 15px;
+}
+
+.cards:nth-child(even) .card-links {
+    color: white;
+    text-decoration: none;
+    font-family: 'Shrikhand', cursive;
+    margin-bottom: 14px;
+}
+
+.cards:nth-child(odd) .card-links {
+    color: #444444;
+    text-decoration: none;
+    font-family: 'Shrikhand', cursive;
+}
+
+.cards:nth-child(even) .card-links:hover {
+    color: #301934;
+}
+
+.cards:nth-child(odd) .card-links:hover {
+    color: #bb5f5f;
+}
+
+.card-img {
+    margin: 15px auto 10px auto;
+}
+
