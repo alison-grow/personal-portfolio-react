@@ -9,16 +9,18 @@
     margin: 0px auto 30px auto;
 }
 
-.cards:hover {
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5)
-}
+/* .cards:hover {
+    box-shadow: 5px 5px 10px 5px rgba(47, 33, 51, 0.5)
+} */
 
 .cards:nth-child(even) {
     background-color: #bb5f5f;
+    border: 4px dashed #FCC7B5;
 }
 
 .cards:nth-child(odd) {
     background-color: #FCC7B5;
+    border: 4px dashed #bb5f5f;
 }
 
 .cards:nth-child(even) .typography-card {

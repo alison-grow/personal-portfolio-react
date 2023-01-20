@@ -1,11 +1,6 @@
 import React from "react";
 import MyForm from "./Form";
 import { Grid } from "@mui/material";
-// import { Switch } from "@mui/material";
-// import { alpha, styled } from '@mui/material/styles';
-// import { pink } from '@mui/material/colors';
-
-// import FormControlLabel from "@mui/material/FormControlLabel";
 
 export default function Contact() {
     return (
