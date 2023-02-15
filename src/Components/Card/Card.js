@@ -63,6 +63,12 @@ export default function ProjectsCard() {
             "content": "React, CSS",
         },
         {
+            "name": "Rock Paper Scissors",
+            "url": "https://alison-grow.github.io/rock-paper-scissors/",
+            "img": "https://cdn-icons-png.flaticon.com/512/6729/6729732.png",
+            "content": "HTML, CSS, Javascript",
+        },
+        {
             "name": "Digital Clock",
             "url": "https://alison-grow.github.io/js-clock/",
             "img": "https://cdn-icons-png.flaticon.com/512/2994/2994853.png",
