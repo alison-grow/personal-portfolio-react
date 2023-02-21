@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Home() {
     const stuff = [
-        "My name is Alison Grow and I am a coding student at Bitwise Industries. I have taken beginner classes for building websites and making them mobile-friendly.",
-        "As a former Fresno State student I studied computer science and business. I took classes on Salesforce and Computer Informational Systems.", 
+        "My name is Alison Grow and I am a coding student at Bitwise Industries. I have taken classes in HTML, CSS, Javascript and React JS.",
+        "As a former Fresno State student I studied computer science and business. I took classes on computer science adn informational systems, including Salesforce.", 
         "I enjoy coding and I'm excited to continue learning more about web development!"
     ];
     const listItems = stuff.map((stuff) =>
